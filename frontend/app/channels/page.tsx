@@ -8,15 +8,15 @@ import { useEffect } from "react";
 const ChannelsPage = () => {
 
   useEffect(() => {
-    document.title = "Channels";
+    document.title = "Kanäle";
   }, []);
 
   const { data: channels, isPending, isError } = useFetchChannels()
 
   if (isPending) return (
-    <GanymedeLoadingText message="Loading Channels" />
+    <GanymedeLoadingText message="Lade Kanäe" />
   )
-  if (isError) return <div>Error loading channels</div>
+  if (isError) return <div>Kanäle konnten nicht geladen werden.</div>
 
   return (
     <Container size="7xl" px="xl" mt={10}>

@@ -15,8 +15,8 @@ export function LandingHero() {
         <Group justify="space-between">
 
           <div>
-            <Text className={classes.title}>Ganymede</Text>
-            <Title c={theme.colors.gray[3]} mt={5} order={3}>A platform to archive live streams and videos</Title>
+            <Text className={classes.title}>VodArchiv</Text>
+            <Title c={theme.colors.gray[3]} mt={5} order={3}>Eine Plattform zum Archivieren von Livestreams und Videos.</Title>
             <Flex mt={10}>
               <Button
                 variant="gradient"
@@ -25,7 +25,7 @@ export function LandingHero() {
                 href="/channels"
                 className={classes.button}
               >
-                Channels
+                Kanäle
               </Button>
               <Button
                 ml={10}

@@ -21,7 +21,7 @@ interface NavLink {
 
 const links: NavLink[] = [
   { link: '/', label: 'Home' },
-  { link: '/channels', label: 'Channels' },
+  { link: '/channels', label: 'Kanäle' },
   {
     link: '/archive',
     label: 'Archive',
@@ -41,9 +41,9 @@ const links: NavLink[] = [
       { link: '/admin/watched', label: 'Watched Channels' },
       { link: '/admin/videos', label: 'Videos' },
       { link: '/admin/blocked-videos', label: 'Blocked Videos' },
-      { link: '/admin/queue', label: 'Queue' },
+      { link: '/admin/queue', label: 'Warteschlange' },
       { link: '/admin/users', label: 'Users' },
-      { link: '/admin/settings', label: 'Settings' },
+      { link: '/admin/settings', label: 'Einstellungen' },
       { link: '/admin/tasks', label: 'Tasks' },
       { link: '/admin/info', label: 'Information' },
     ],

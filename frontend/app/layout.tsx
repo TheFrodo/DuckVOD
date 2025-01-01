@@ -11,8 +11,8 @@ import Providers from './providers';
 import { EnvScript, PublicEnvScript } from 'next-runtime-env';
 
 export const metadata: Metadata = {
-  title: "Ganymede",
-  description: "A platform to archive live streams and videos.",
+  title: "Vodarchiv",
+  description: "Eine Plattform zum Archivieren von Livestreams und Videos.",
 };
 
 export default function RootLayout({
