@@ -10,7 +10,7 @@ export default function Home() {
   const { isLoggedIn } = useAuthStore();
 
   useEffect(() => {
-    document.title = "Ganymede";
+    document.title = "DuckVOD";
   }, []);
 
   return (
