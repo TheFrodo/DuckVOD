@@ -42,7 +42,7 @@ export function LandingHero() {
             <Box>
               <Flex justify={"center"} align={"center"}>
                 <div className={classes.logoBackground}></div>
-                <Image src="/images/ganymede_logo.png" height={100} width={100} alt="Ganymede logo" className={classes.logo} />
+                <Image src="/images/duckvod_logo.png" height={100} width={100} alt="DuckVOD logo" className={classes.logo} />
               </Flex>
             </Box>
           )}
