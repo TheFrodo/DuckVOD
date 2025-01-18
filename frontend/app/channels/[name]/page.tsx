@@ -26,7 +26,7 @@ const ChannelPage = ({ params }: { params: Promise<Params> }) => {
   if (isError) {
     return (
       <Center>
-        <div>Error loading channel</div>
+        <div>Fehler beim Laden des Kanals</div>
       </Center>
     );
   }

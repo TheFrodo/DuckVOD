@@ -11,7 +11,7 @@ import Providers from './providers';
 import { EnvScript, PublicEnvScript } from 'next-runtime-env';
 
 export const metadata: Metadata = {
-  title: "Vodarchiv",
+  title: "DuckVOD",
   description: "Eine Plattform zum Archivieren von Livestreams und Videos.",
 };
 

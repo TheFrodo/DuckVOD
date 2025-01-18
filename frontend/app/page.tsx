@@ -24,7 +24,7 @@ export default function Home() {
       {isLoggedIn && (
         <Box>
           <Center>
-            <Title>Continue Watching</Title>
+            <Title>Weiter ansehen</Title>
           </Center>
           <Container mt={10} size={"7xl"}>
             <ContinueWatching count={4} />
@@ -34,7 +34,7 @@ export default function Home() {
 
       <Box>
         <Center>
-          <Title>Recently Archived</Title>
+          <Title>Kürzlich archiviert</Title>
         </Center>
         <Container mt={10} size={"7xl"}>
           <RecentlyArchived count={8} />

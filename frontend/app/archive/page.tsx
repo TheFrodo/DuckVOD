@@ -86,8 +86,8 @@ const ArchivePage = () => {
       // Input validation
       if (!archiveInput && !channelId) {
         showNotification({
-          title: "Input Required",
-          message: "Please enter a video ID or select a channel",
+          title: "Eingabe erforderlich",
+          message: "Bitte gebe eine Video-ID ein oder wähle einen Kanal aus.",
           color: "red",
         });
         return;
@@ -95,8 +95,8 @@ const ArchivePage = () => {
 
       if (archiveInput && channelId) {
         showNotification({
-          title: "Invalid Selection",
-          message: "Please either enter an ID or select a channel (not both)",
+          title: "Ungültige Auswahl",
+          message: "Bitte gebe entweder eine ID ein oder wähle einen Kanal aus (nicht beides).",
           color: "red",
         });
         return;
@@ -116,8 +116,8 @@ const ArchivePage = () => {
       setArchiveInput("")
 
       showNotification({
-        title: "Success",
-        message: "Video added to archive queue",
+        title: "Erfolgreich",
+        message: "Video zur Archiv-Warteschlange hinzugefügt",
         color: "green",
       });
 
@@ -146,7 +146,7 @@ const ArchivePage = () => {
               </Center>
               <Center mb={10}>
                 <Text>
-                  Enter a video ID or select a channel to archive a livestream
+                  Gebe eine Video-ID ein oder wähle einen Kanal aus, um einen Livestream zu archivieren.
                 </Text>
               </Center>
               <TextInput
